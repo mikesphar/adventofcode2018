@@ -11,9 +11,7 @@ def remove_char_at_index(string, index):
 
 def find_one_match(string, strings):
     for compare_string in strings:
-        if string == compare_string:
-            next
-        else:
+        if string != compare_string:
             count = 0
             diff_index = None
 
